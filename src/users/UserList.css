@@ -1,0 +1,23 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 50px repeat(2, auto) repeat(4, 80px);
+  padding: 0px 10px;
+  text-align: left;
+}
+
+.grid-item {
+  border-bottom: 1px solid;
+  padding: 5px 0px;
+}
+.header {
+  background-color: #ccc;
+}
+.new-user {
+  display: flex;
+  align-items: flex-end;
+  padding: 5px 10px;
+}
+.new-user button {
+  padding: 5px;
+  color: blue;
+}
